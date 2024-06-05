@@ -9,8 +9,8 @@
 
 #include "shared_test_classes/base/ov_subgraph.hpp"
 
-namespace ov{
-namespace test{
+namespace ov {
+namespace test {
 using fakeConvertParamsTuple = typename std::tuple<
         ov::element::Type,               // destination_type
         std::vector<InputShape>,         // Input shapes
@@ -25,5 +25,5 @@ public:
 protected:
     void SetUp() override;
 };
-}
-}
+}  // namespace test
+}  // namespace ov

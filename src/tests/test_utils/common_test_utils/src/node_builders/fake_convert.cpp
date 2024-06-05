@@ -6,7 +6,6 @@
 
 #include "common_test_utils/data_utils.hpp"
 #include "common_test_utils/node_builders/constant.hpp"
-#include "common_test_utils/node_builders/fake_convert.hpp"
 #include "openvino/op/fake_convert.hpp"
 
 namespace ov {
